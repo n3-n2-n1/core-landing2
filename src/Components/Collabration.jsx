@@ -2,6 +2,7 @@ import React from "react";
 import Section from "./Section";
 import { collabApps, collabContent, collabText } from "../constant";
 import brainwaveSymbol from "../assets/roadmap/a.png";
+import graf from "../assets/roadmap/b2c.png";
 import Button from "./Button";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 export default function Collabration() {
@@ -32,9 +33,9 @@ export default function Collabration() {
           </p>
           <img
                     className="m-auto"
-                    width={2000}
-                    height={2000}
-                    src={brainwaveSymbol}
+                    width={1000}
+                    height={1000}
+                    src={graf}
                     alt="symbol"
                   />
         </div>

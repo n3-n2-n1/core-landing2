@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <div className="overflow-hidden ">
+        <Header />
         <Hero />
         <Benifits />
-        <Collabration />
         <Services />
         <Roadmap />
         <Footer />

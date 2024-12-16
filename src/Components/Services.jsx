@@ -3,7 +3,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import s1 from "../assets/services/service-1.png";
 import s2 from "../assets/services/service-2.png";
-import s3 from "../assets/roadmap/a.png";
+import s3 from "../assets/roadmap/skeleton.png";
 import { brainwaveServices, brainwaveServicesIcons } from "../constant";
 import { check } from "../assets";
 import GeneratingText from "./GeneratingText";
@@ -62,7 +62,7 @@ export default function Services() {
               <img
                   src={s3}
                   className="w-full h-full object-cover"
-                  width={520}
+                  width={220}
                   height={400}
                   alt="Scary robot"
                 />
@@ -79,6 +79,16 @@ export default function Services() {
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
+
+
+              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                
+              <video autoPlay loop muted className="w-[100%] h-[100%] object-cover p-4">
+              <source src="/snowtest2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+              </div>
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Wide Sports Recognition</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
@@ -107,14 +117,6 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
-              </div>
-
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-              <video autoPlay loop muted className="w-[100%] h-[100%] object-cover p-4">
-              <source src="/snowtest2.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-
               </div>
             </div>
           </div>
