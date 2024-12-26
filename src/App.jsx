@@ -13,7 +13,6 @@ function App() {
         <Hero />
         <Benifits />
         <Services />
-        <Roadmap />
         <Footer />
       </div>
     </>
