@@ -20,6 +20,7 @@ export default function Services() {
         <Heading
           title={"Combining Computer Vision"}
           text={"Unlocking the potential of AI-powered applications"}
+          id="unlock"
         ></Heading>
 
         <div className="relative ">
@@ -69,19 +70,19 @@ export default function Services() {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4 text-white">Photo editing</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
                   Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  photo editing feature.
                 </p>
               </div>
 
             </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
+            <div className="p-4 bg-n-1 rounded-3xl overflow-hidden lg:min-h-[46rem] border-black border-2">
 
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative h-[20rem] bg-n-1 rounded-xl overflow-hidden md:h-[25rem]">
                 
               <video autoPlay loop muted className="w-[100%] h-[100%] object-cover p-4">
               <source src="/snowtest2.mp4" type="video/mp4" />
@@ -90,7 +91,7 @@ export default function Services() {
 
               </div>
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Wide Sports Recognition</h4>
+                <h4 className="h4 mb-4 text-dark">Wide Sports Recognition</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   An approach to different models who share data and serve your analytics needs.
                 </p>

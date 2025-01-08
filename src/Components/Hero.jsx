@@ -22,8 +22,8 @@ export default function Hero() {
       <div className="container relative" ref={parallexRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]">
           <h1 className="h1 mb-6">
-          The Key for Empowering Sports
-            {/* <span className="inline-block relative">
+          C.O.R.E: <br/>The Key for Empowering Sports
+             <span className="inline-block relative">
               <img
                 className="absolute top-full left-0 w-full xl:-mt-2"
                 src={curve}
@@ -31,16 +31,13 @@ export default function Hero() {
                 width={624}
                 height={24}
               />
-            </span> */}
+            </span>
           </h1>
 
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto  text-n-2 lg:mb-8">
 We Create Opportunities and Reach Objectives
           </p>
-
-          <Button white>Get Started</Button>
         </div>
-
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
@@ -59,7 +56,7 @@ We Create Opportunities and Reach Objectives
                   }
                 /> */}
 
-                <ScrollParallax isAbsolutelyPositioned>
+                {/* <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[4.5rem] bottom-[7.5rem] backdrop-blur-border  px-1 py-1 bg-n-9/40 border border-n-1/20 rounded-2xl lg:flex ">
                     {heroIcons.map((icon) => (
                       <li className="p-5 ">
@@ -73,7 +70,7 @@ We Create Opportunities and Reach Objectives
                   <Notification
                     className={`hidden absolute -right-20 bottom-[11rem] w-[18rem] xl:flex`}
                   />
-                </ScrollParallax>
+                </ScrollParallax> */}
               </div>
             </div>
 

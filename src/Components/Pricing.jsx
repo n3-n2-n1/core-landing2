@@ -28,22 +28,18 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with C.O.R.E"
+          title="Ready to join us?"
         />
 
-        <div className="relative">
-          <PricingList />
-          <LeftLine />
-          <RightLine />
-        </div>
+ 
 
         <div className="flex justify-center mt-10">
           <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            className="text-xs font-code font-bold tracking-wider uppercase border-b bg-black text-white rounded-full px-8 py-4"
+            href="#"
           >
-            See the full details
+            Book a demo
           </a>
         </div>
       </div>

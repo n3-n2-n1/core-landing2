@@ -3,6 +3,7 @@ import Collabration from "./Components/Collabration";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import Pricing from "./Components/Pricing";
 import Roadmap from "./Components/Roadmap";
 import Services from "./Components/Services";
 function App() {
@@ -11,8 +12,9 @@ function App() {
       <div className="overflow-hidden ">
         <Header />
         <Hero />
-        <Benifits />
         <Services />
+        <Benifits />
+        <Pricing />
         <Footer />
       </div>
     </>
